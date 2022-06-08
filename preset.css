@@ -1,0 +1,133 @@
+.toppage{
+    border: 2px solid white;
+}
+
+body {
+    background-color: midnightblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    cursor: default;
+    text-decoration-line: none;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: pink;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-size: .77rem;
+    font-weight: bold;
+}
+
+header .logo {
+    color: black;
+    flex-grow: 1;
+    text-transform: uppercase;
+}
+
+header li {
+    display: inline;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    padding-right: 2.22rem;
+    color: black;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: white;
+}
+
+/*Banner*/
+
+.banner {
+    background: url(https://variety.com/wp-content/uploads/2021/07/Rick-Astley-Never-Gonna-Give-You-Up.png?w=681&h=383&crop=1&resize=681%2C383) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: auto;
+}
+
+/*Main*/
+
+section {
+    margin: 20px 0px;
+    background-color: pink;
+    border: 2px solid white;
+    color: black;
+    position: relative;
+}
+
+/* Navigation */
+
+.navigate {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: pink;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-size: .77rem;
+    font-weight: bold;
+}
+
+.navigate article nav {
+    background-color: pink;
+    display: inline-block;
+}
+
+.navigate a {
+    color: black;
+    margin: 2px;
+}
+
+.navigate a:hover {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4.44rem;
+    padding: 0 12%;
+    background-color: pink;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+    font-size: .77rem;
+    font-weight: bold;
+    color: black;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 10px;
+    text-transform: uppercase;
+    padding-right: 2.22rem;
+    color: black;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
